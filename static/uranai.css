@@ -1,0 +1,10 @@
+.today_result{
+    font-size: 32px;
+    color: chocolate;
+    text-shadow: 1px 1px 2px gray;
+}
+.today_msg{
+    font-size: 16px;
+    color: darkblue;
+    text-shadow: 1px 1px 2px gray;
+}

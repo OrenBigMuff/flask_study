@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>結果画面</title>
+</head>
+<body>
+    <p>結果は...「<span class="score">{{ score }}</span>」点でした。</p>
+    {% for answer, user_answer in result_data %}
+        <p><span class="rblank">こたえ：{{ answer }}</span>
+            あなたのこたえ：「{{ user_answer }}」</p>
+    {% endfor %}
+    <br>
+    <a href="/">戻る</a>
+</body>
+</html>
